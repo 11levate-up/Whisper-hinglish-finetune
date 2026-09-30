@@ -2,6 +2,13 @@
 
 Fine-tuning OpenAI's Whisper ASR model on Hindi-English (Hinglish) 
 code-switched speech to improve transcription accuracy on mixed-language audio.
+### Dataset: 
+28,681 audio recordings, 36.6 hours total
+
+1. 4 categories are labeled: Hindi (hi), English (en), Hinglish code-switched (hinglish), and silence/noise
+2. The Hinglish subset alone contains 6,028 training samples — meaning it is directly usable for your project
+3. It is already divided into training/validation/test sets — you do not need to split the data yourself
+4. Apache 2.0 license — free to use, including for research
 
 ## Problem
 Whisper's pretrained model shows degraded accuracy on Hindi-English 
