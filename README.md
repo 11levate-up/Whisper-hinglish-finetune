@@ -3,7 +3,10 @@
 Fine-tuning OpenAI's Whisper ASR model on Hindi-English (Hinglish) 
 code-switched speech to improve transcription accuracy on mixed-language audio.
 ### Dataset: 
-28,681 audio recordings, 36.6 hours total
+Prototype trained on the Hinglish (code-switched) subset of 
+`addyo07/noisy-hinglish-asr` (Hugging Face, Apache 2.0) 
+
+Dataset have: 28,681 audio recordings, 36.6 hours total
 
 1. 4 categories are labeled: Hindi (hi), English (en), Hinglish code-switched (hinglish), and silence/noise
 2. The Hinglish subset alone contains 6,028 training samples — meaning it is directly usable for your project
