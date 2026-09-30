@@ -15,7 +15,7 @@ dataset, and measure the Word Error Rate (WER) improvement compared to
 the baseline (unmodified) model.
 
 ## Results
-(training ke baad yahan before/after WER numbers aayenge)
+Wait 
 
 ## License
 MIT
